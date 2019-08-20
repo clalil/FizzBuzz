@@ -9,7 +9,24 @@ class Car
     def change_color
         @newcolor = 'blue'
     end
+
+    def import_seats
+        @newseats = 'leather'
+    end
+
+    def return_methods
+        @brand
+    end
+
 end
 
-class Dog
+class Motorcycles < Car
+    attr_accessor :color, :brand, :wheels, :bell
+    def initialize
+        super
+        @bell = 1
+    end
 end
+
+# class Dog
+# end
