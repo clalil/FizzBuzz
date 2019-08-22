@@ -4,8 +4,8 @@ describe 'fizz_buzz' do
 
     # spec/fizz_buzz_spec.rb
 
-    it "returns 'invalid number' if number is a non-numeric value" do
-        expect(fizz_buzz('invalid number')).to eq 'invalid number'
+    it 'returns error message if number is a string' do
+        expect(fizz_buzz('')).to eq 'please enter a number'
     end
 
     it 'returns 1 if number is 1' do
