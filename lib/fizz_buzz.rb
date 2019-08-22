@@ -1,6 +1,6 @@
 
 def fizz_buzz(number)
-    elsif (number).is_a? String
+    if (number).is_a? String
         'please enter a number'
     elsif has_zero_remainder(number, 15)
         'fizz buzz'
