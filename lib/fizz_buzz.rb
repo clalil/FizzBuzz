@@ -1,6 +1,6 @@
 
 def fizz_buzz(number)
-    if (number).is_a? String
+    elsif (number).is_a? String
         'please enter a number'
     elsif has_zero_remainder(number, 15)
         'fizz buzz'
@@ -15,4 +15,4 @@ def fizz_buzz(number)
 
   def has_zero_remainder(number, divider)
     number % divider == 0
-  endcd 
+  end
