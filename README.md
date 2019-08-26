@@ -9,7 +9,7 @@ The conditions are as follows:
 
 ## Built with  
 * Ruby  
-* Using RSpec for the unit tests, following both the happy and sad paths.  
+* Using RSpec for the unit tests, following both the happy and sad path. RSpec is a testing framework used for unit- and acceptance tests.  
 
 ## Acknowledgements  
 Thank you CraftAcademy for giving me this challenge.  
