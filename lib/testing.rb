@@ -1,5 +1,6 @@
 class Car
     attr_accessor :brand, :wheels, :color, :newcolor
+
     def initialize
         @brand = 'tesla'
         @wheels = 4
@@ -22,11 +23,9 @@ end
 
 class Motorcycles < Car
     attr_accessor :color, :brand, :wheels, :bell
+    
     def initialize
         super
         @bell = 1
     end
 end
-
-# class Dog
-# end
